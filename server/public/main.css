@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+/* font-family: 'Teko', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+/* font-family: 'Concert One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+/* body */
+body {
+  background-color: #fff;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* App */
+
+.app-whoami-container {
+    display: flex;
+    width: 90vw;
+    height: 50vh;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2%;
+    padding-left: 2%;  
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.app-whoami-h1 {
+    width: 100%;
+    padding-left: 5%;
+    color: #1b1b1b;
+    font-size: 2.5vw;
+    line-height: 1.25;
+    font-weight: 500;
+}
+
+.text-span {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.app-heading3 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.app-flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 100vh;
+  justify-content: center;
+}
+
+.app-flexbox {
+  width: 20vw;
+  height: 20vw;
+  margin: 0 3vw 0 0;
+}
+
+.box1 {
+  background: sandybrown;
+}
+
+
+.box2 {
+  background: teal;
+}
+
+.box3 {
+  background: salmon;
+}
+
+/* Nav */
+
+.nav {
+  padding: 10px 2.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-name-home {
+  position: relative;
+}
+
+.nav-name-link {
+  color: rgb(173, 166, 166);
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-indent: 3px;
+  text-transform: uppercase;
+}
+
+.nav-other-links {
+  float: right;
+}
